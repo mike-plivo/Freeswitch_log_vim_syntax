@@ -1,0 +1,8 @@
+A very Basic Vim Syntax Highlighter for Freeswitch Logs
+
+1) Put fslog.vim in ~/.vim/syntax/
+
+2) Copy and paste your fs logs from the fs_cli into your vim session
+
+3) And set syntax in vim using :
+:set syntax=fslog
