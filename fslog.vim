@@ -16,7 +16,9 @@ syn match fslogdebug /.* \[DEBUG\] .*/
 syn match fsloginfo /.* \[INFO\] .*/
 syn match fslognotice /.* \[NOTICE\] .*/
 syn match fslogwarn /.* \[WARNING\] .*/
+syn match fslogwarn /.* \[WARN\] .*/
 syn match fslogerror /.* \[ERROR\] .*/
+syn match fslogerror /.* \[ERR\] .*/
 syn match fslog /^[aA-zZ].*/
 
 highlight FSLogInfo ctermfg=green guifg=green
