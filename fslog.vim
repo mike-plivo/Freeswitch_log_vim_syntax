@@ -13,6 +13,7 @@ syn sync fromstart
 syn sync linebreaks=1
 
 syn match fslogdebug /.* \[DEBUG\] .*/
+syn match fslogdp /.* Dialplan: .*/
 syn match fsloginfo /.* \[INFO\] .*/
 syn match fslognotice /.* \[NOTICE\] .*/
 syn match fslogwarn /.* \[WARNING\] .*/
@@ -28,6 +29,7 @@ highlight FSLogWarn ctermfg=5 guifg=purple
 highlight FSLogError ctermfg=red guifg=red
 
 highlight link fslogdebug FSLogDebug
+highlight link fslogdp FSLogDebug
 highlight link fsloginfo FSLogInfo
 highlight link fslognotice FSLogNotice
 highlight link fslogwarn FSLogWarn
