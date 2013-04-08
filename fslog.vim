@@ -20,6 +20,7 @@ syn match fslogwarn /.* \[WARNING\] .*/
 syn match fslogwarn /.* \[WARN\] .*/
 syn match fslogerror /.* \[ERROR\] .*/
 syn match fslogerror /.* \[ERR\] .*/
+syn match fslogerror /.* \[ALERT\] .*/
 syn match fslog /^[aA-zZ].*/
 
 highlight FSLogInfo ctermfg=green guifg=green
